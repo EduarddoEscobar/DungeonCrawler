@@ -1,0 +1,13 @@
+#characterDisplay{
+  width: 30%;
+  height: 90vh;
+  background-color: black;
+  border: 1px solid black;
+}
+
+#myCanvas{
+  width: 50%;
+  height: 90vh;
+  background-color: black;
+  border: 1px solid red;
+}
