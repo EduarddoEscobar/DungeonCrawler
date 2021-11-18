@@ -4,9 +4,11 @@ class Room{
     this.moveOptions = roomAttrs.moveOptions;//Array of boolean values
     this.enemies = roomAttrs.enemies;//Array of enemy objects
     this.roomColor = roomAttrs.roomColor;// String of color
+
     ///Boolean values indicating room status\\\
     this.roomCleared = roomAttrs.roomCleared;
     this.hasTreasure = roomAttrs.hasTreasure;
+    
     console.log(`New Room with id: ${this.roomId}:`);
   }
 
